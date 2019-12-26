@@ -34,6 +34,8 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 </p>
 </details>
 
+----------------
+
 #### 2. Crie um projeto no Firebase
 Acesse o [Firebase](https://firebase.google.com/) e clique em "Primeiros passos" para acessar o [Firebase Console](https://console.firebase.google.com/)
 
@@ -45,6 +47,8 @@ Acesse o [Firebase](https://firebase.google.com/) e clique em "Primeiros passos"
 
 </p>
 </details>
+
+----------------
 
 #### 3. Registre seu projeto Flutter no seu projeto Firebase
 - O nome do pacote android está em `android/app/build.gradle` na propriedade `applicationId`
@@ -71,6 +75,8 @@ Acesse o [Firebase](https://firebase.google.com/) e clique em "Primeiros passos"
 
 > NOTA: A utilidade `keytool` é provida pelo [Java (jdk)](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
+----------------
+
 #### 4. Faça o download do arquivo de configuração
 Coloque o arquivo de configuração `google-services.json` em `android/app`
 
@@ -83,6 +89,8 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 </p>
 </details>
 
+
+----------------
 
 #### 5. Adicione o SDK do Firebase
 - Adicione as linhas especificadas pelo guia do Firebase em `<projeto>/android/build.gradle`
@@ -105,7 +113,41 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 </p>
 </details>
 
+----------------
+
 #### 6. Execute o app para testar a conexão com o Firebase
+
+<details><summary>testando a conexão com o Firebase</summary>
+<p>
+
+!(Execute App)[https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/run_app.gif]
+
+</p>
+</details>
+
+----------------
+
+#### 7. Habilite a autenticação por smartphone
+
+<details><summary>Habilitando autenticação por smartphone</summary>
+<p>
+
+!(Enable phone auth)[https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/run_app.gif]
+
+</p>
+</details>
+
+----------------
+
+#### 8. Execute o app e teste a autenticação por SMS
+
+<details><summary>Testando a autenticação por smartphone</summary>
+<p>
+
+!(Enable phone auth)[https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/running_app.gif]
+
+</p>
+</details>
 
 
 
