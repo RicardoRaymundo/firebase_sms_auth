@@ -132,7 +132,7 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 <details><summary>Habilitando autenticação por smartphone</summary>
 <p>
 
-![Enable phone auth](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/run_app.gif)
+![Enable phone auth](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/enable_phone_auth.gif)
 
 </p>
 </details>
