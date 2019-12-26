@@ -24,7 +24,7 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 </details>
 
 - Adicione as dependencias no pubspec.yaml
-
+  - []()
 <details><summary>pubspeck.yaml</summary>
 <p>
 
@@ -149,5 +149,34 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 </p>
 </details>
 
+## **Aprender**
+
+[firebase-phone-auth-with-flutter](https://medium.com/@fayaz07/firebase-phone-auth-with-flutter-db7e934ef46f)
+
+[pub.dev/packages/firebase_auth](https://pub.dev/packages/firebase_auth)
+
+[github.com/FirebaseExtended/flutterfire](https://github.com/FirebaseExtended/flutterfire)
+
+[firebase.google.com/docs](https://firebase.google.com/docs)
+
+
+## **Contribuir**
+
+Contribuições são sempre muito bem vindas! Não precisam ser somente através de desenvolvimento de código, qualquer ajuda com ideias, sugestões, melhorias na documentação e doações são sempre muito apreciadas!
+
+Participe da comunidade [Projeto que Vale](http://www.projetoquevale.com.br/) e colabore da forma que achar melhor.
+
+
+## **Licença**
+
+MIT License
+
+Copyright (c) 2019 PROJETO QUE VALE
+
+É concedida permissão, gratuitamente, a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o "Software"), para negociar o Software sem restrições, incluindo, sem limitação, os direitos de uso, cópia, modificação e fusão , publicar, distribuir, sublicenciar e / ou vender cópias do Software, e permitir que as pessoas a quem o Software é fornecido o façam, sujeitas às seguintes condições:
+
+O aviso de copyright acima e este aviso de permissão devem ser incluídos em todas as cópias ou partes substanciais do Software.
+
+O SOFTWARE É FORNECIDO "NO ESTADO EM QUE SE ENCONTRA", SEM NENHUM TIPO DE GARANTIA, EXPRESSA OU IMPLÍCITA, INCLUINDO, MAS NÃO SE LIMITANDO ÀS GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM FIM ESPECÍFICO E NÃO VIOLAÇÃO. EM NENHUMA CIRCUNSTÂNCIA, OS AUTORES OU PROPRIETÁRIOS DE DIREITOS DE AUTOR PODERÃO SER RESPONSABILIZADOS POR QUAISQUER REIVINDICAÇÕES, DANOS OU OUTRAS RESPONSABILIDADES, QUER EM ACÇÃO DE CONTRATO, DELITO OU DE OUTRA FORMA, DECORRENTES DE, OU EM CONEXÃO COM O SOFTWARE OU O USO OU OUTRAS NEGOCIAÇÕES NO PROGRAMAS.
 
 
