@@ -42,14 +42,40 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 
 ## collapsible markdown?
 
-<details><summary>CLICK ME</summary>
+<details><summary>PASSOS</summary>
 <p>
 
 #### yes, even hidden code blocks!
 
-![](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/google_json_file.gif)
-![](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/google_json_file.gif)
-![](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/google_json_file.gif)
+<details><summary>PASSO 1</summary>
+<p>
+
+#### yes, even hidden code blocks!
+![SHA-1](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/sha1.gif)
+
+
+</p>
+</details>
+
+<details><summary>PASSO 2</summary>
+<p>
+
+#### yes, even hidden code blocks!
+![SHA-1](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/sha1.gif)
+
+
+</p>
+</details>
+
+<details><summary>PASSO 3</summary>
+<p>
+
+#### yes, even hidden code blocks!
+![SHA-1](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/sha1.gif)
+
+
+</p>
+</details>
 
 </p>
 </details>
