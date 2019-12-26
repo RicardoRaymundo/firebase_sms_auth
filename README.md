@@ -47,9 +47,7 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 
 #### yes, even hidden code blocks!
 
-```python
-print("hello world!")
-```
+![](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/google_json_file.gif)
 
 </p>
 </details>
