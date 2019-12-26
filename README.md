@@ -35,7 +35,7 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 </details>
 
 #### 2. Crie um projeto no Firebase
->Acesse o [Firebase](https://firebase.google.com/) e clique em "Primeiros passos" para acessar o [Firebase Console](https://console.firebase.google.com/)
+Acesse o [Firebase](https://firebase.google.com/) e clique em "Primeiros passos" para acessar o [Firebase Console](https://console.firebase.google.com/)
 
 <details><summary>Criando projeto no Firebase</summary>
 <p>
@@ -58,7 +58,7 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 </p>
 </details>
 
-- Gere a chave SHA-1 pelo terminal
+- [Gere a chave SHA-1](https://developers.google.com/android/guides/client-auth) pelo terminal
 
 <details><summary>Gerando chave SHA-1</summary>
 <p>
@@ -73,46 +73,24 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 
 #### 4. Faça o download do arquivo de configuração
 Coloque o arquivo de configuração `google-services.json` em `android/app`
+
+<details><summary>Colocando o arquivo do google em `android/app`</summary>
+<p>
+
 ![google-services.json](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/google_json_file.gif)
 
-## collapsible markdown?
-
-<details><summary>PASSOS</summary>
-<p>
-
-#### yes, even hidden code blocks!
-
-<details><summary>PASSO 1</summary>
-<p>
-
-#### yes, even hidden code blocks!
-![SHA-1](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/sha1.gif)
-
 
 </p>
 </details>
 
-<details><summary>PASSO 2</summary>
-<p>
 
-#### yes, even hidden code blocks!
-![SHA-1](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/sha1.gif)
+#### 4. Adicione o SDK do Firebase
+Adicione as linhas especificadas pelo guia do Firebase em `<projeto>/android/build.gradle`
 
 
-</p>
-</details>
-
-<details><summary>PASSO 3</summary>
-<p>
-
-#### yes, even hidden code blocks!
-![SHA-1](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/sha1.gif)
+Adicione as linhas especificadas pelo guia do Firebase em `<projeto>/android/app/build.gradle`
 
 
-</p>
-</details>
 
-</p>
-</details>
 
 
