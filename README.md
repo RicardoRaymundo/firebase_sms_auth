@@ -120,7 +120,7 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 <details><summary>testando a conexão com o Firebase</summary>
 <p>
 
-!(Execute App)[https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/run_app.gif]
+![Execute App](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/run_app.gif)
 
 </p>
 </details>
@@ -132,7 +132,7 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 <details><summary>Habilitando autenticação por smartphone</summary>
 <p>
 
-!(Enable phone auth)[https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/run_app.gif]
+![Enable phone auth](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/run_app.gif)
 
 </p>
 </details>
@@ -144,7 +144,7 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 <details><summary>Testando a autenticação por smartphone</summary>
 <p>
 
-!(Enable phone auth)[https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/running_app.gif]
+![Enable phone auth](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/running_app.gif)
 
 </p>
 </details>
