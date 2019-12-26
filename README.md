@@ -37,16 +37,37 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 #### 2. Crie um projeto no Firebase
 >Acesse o [Firebase](https://firebase.google.com/) e clique em "Primeiros passos" para acessar o [Firebase Console](https://console.firebase.google.com/)
 
+<details><summary>Criando projeto no Firebase</summary>
+<p>
+
 ![create firebase project](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/create_firebase_project.gif)
+
+
+</p>
+</details>
 
 #### 3. Registre seu projeto Flutter no seu projeto Firebase
 - O nome do pacote android está em `android/app/build.gradle` na propriedade `applicationId`
 
+<details><summary>Registrando a applicationId</summary>
+<p>
+
 ![applicationId](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/applicationId.gif)
+
+
+</p>
+</details>
 
 - Gere a chave SHA-1 pelo terminal
 
+<details><summary>Gerando chave SHA-1</summary>
+<p>
+
 ![SHA-1](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/sha1.gif)
+
+
+</p>
+</details>
 
 > NOTA: A utilidade `keytool` é provida pelo [Java (jdk)](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
