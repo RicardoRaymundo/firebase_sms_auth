@@ -74,7 +74,7 @@ Acesse o [Firebase](https://firebase.google.com/) e clique em "Primeiros passos"
 #### 4. Faça o download do arquivo de configuração
 Coloque o arquivo de configuração `google-services.json` em `android/app`
 
-<details><summary>Colocando o arquivo do google em `android/app`</summary>
+<details><summary>Colocando o arquivo do google em <code>android/app</code></summary>
 <p>
 
 ![google-services.json](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/google_json_file.gif)
@@ -85,12 +85,25 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 
 
 #### 4. Adicione o SDK do Firebase
-Adicione as linhas especificadas pelo guia do Firebase em `<projeto>/android/build.gradle`
+- Adicione as linhas especificadas pelo guia do Firebase em `<projeto>/android/build.gradle`
 
+<details><summary>Instalando o SDK em <code>android/build.grafle</code></summary>
+<p>
 
-Adicione as linhas especificadas pelo guia do Firebase em `<projeto>/android/app/build.gradle`
+![android/build.gradle](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/firebase_sdk_android.gif)
 
+</p>
+</details>
 
+- Adicione as linhas especificadas pelo guia do Firebase em `<projeto>/android/app/build.gradle`
+
+<details><summary>Instalando o SDK em <code>android/app/build.grafle</code></summary>
+<p>
+
+![android/build.gradle](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/firebase_sdk_android_app.gif)
+
+</p>
+</details>
 
 
 
