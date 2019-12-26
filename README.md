@@ -1,4 +1,4 @@
-# Manual: Autenticação via SMS do [Firebase](https://firebase.google.com/)
+# Manual Flutter: Autenticação via SMS pelo [Firebase](https://firebase.google.com/)
 
 Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/flutterfire/tree/master/packages/firebase_auth/firebase_auth)
 
@@ -20,6 +20,15 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 
 #### 2. Crie um projeto no Firebase
 >Acesse o [Firebase](https://firebase.google.com/) e clique em "Primeiros passos" para acessar o [Firebase Console](https://console.firebase.google.com/)
+
+#### 3. Registre seu projeto Flutter no seu projeto Firebase
+- O nome do pacote android está em `android/app/build.gradle` na propriedade `applicationId`
+- Gere a chave SHA-1
+
+> NOTA: A utilidade `keytool` é provida pelo [Java (jdk)](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
+
+#### 4. Faça o download do arquivo de configuração
+
 
 
 

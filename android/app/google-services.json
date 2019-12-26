@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "637572058062",
+    "firebase_url": "https://fir-sms-auth-17fe9.firebaseio.com",
+    "project_id": "fir-sms-auth-17fe9",
+    "storage_bucket": "fir-sms-auth-17fe9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:637572058062:android:8ebde34ce3db4f92c8799f",
+        "android_client_info": {
+          "package_name": "com.example.firebase_sms_auth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "637572058062-ak73m8l4udol8klc24oun7cqaqp3bq3i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firebase_sms_auth",
+            "certificate_hash": "5dfa5bcf543743efbf796209b54c2e39a7bc984b"
+          }
+        },
+        {
+          "client_id": "637572058062-or72v9ofck97dn2j2lsho30m2guecq0h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnv9ojClXVI9pNZqIzZ6m4lMUgxQnwASM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "637572058062-or72v9ofck97dn2j2lsho30m2guecq0h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
