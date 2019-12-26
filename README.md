@@ -14,11 +14,25 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 #### 1. Crie um novo projeto Flutter
 - Crie um novo projeto e use o codigo deste [main.dart](lib/main.dart)
 
+<details><summary>main.dart</summary>
+<p>
+
 ![main.dart](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/main_dart.gif)
+
+
+</p>
+</details>
 
 - Adicione as dependencias no pubspec.yaml
 
+<details><summary>pubspeck.yaml</summary>
+<p>
+
 ![pubspec](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/pubspec.png)
+
+
+</p>
+</details>
 
 #### 2. Crie um projeto no Firebase
 >Acesse o [Firebase](https://firebase.google.com/) e clique em "Primeiros passos" para acessar o [Firebase Console](https://console.firebase.google.com/)
