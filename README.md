@@ -30,7 +30,7 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 
 ![applicationId](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/applicationId.gif)
 
-- Gere a chave SHA-1
+- Gere a chave SHA-1 pelo terminal
 
 ![SHA-1](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/sha1.gif)
 
@@ -40,6 +40,18 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 Coloque o arquivo de configuração `google-services.json` em `android/app`
 ![google-services.json](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/google_json_file.gif)
 
+## collapsible markdown?
 
+<details><summary>CLICK ME</summary>
+<p>
+
+#### yes, even hidden code blocks!
+
+```python
+print("hello world!")
+```
+
+</p>
+</details>
 
 
