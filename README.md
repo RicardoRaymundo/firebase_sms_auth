@@ -10,6 +10,7 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 4. [Licença](#licença)
 
 ## Passo-à-passo
+Vejá também o [passo à passo simplificado](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/README.md)
 
 #### 1. Crie um novo projeto Flutter
 - Crie um novo projeto e use o codigo deste [main.dart](lib/main.dart)
@@ -23,7 +24,12 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 </details>
 
 - Adicione as dependencias no pubspec.yaml
-  - []()
+  - google_sign_in: ^4.0.0
+  - firebase_core: ^0.4.0+8
+  - firebase_dynamic_links: ^0.3.0
+  - uuid: ^2.0.2
+  - firebase_auth: ^0.15.3
+  
 <details><summary>pubspec.yaml</summary>
 <p>
 
@@ -38,6 +44,10 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 #### 2. Crie um projeto no Firebase
 Acesse o [Firebase](https://firebase.google.com/) e clique em "Primeiros passos" para acessar o [Firebase Console](https://console.firebase.google.com/)
 
+Adicione um novo projeto no firebase. Defina nome do novo projeto usando o nome do seu projeto
+do Android Studio que está registrado no cabeçalho do [pubspec.yaml](pubspec.yaml). Em seguida permita o uso do 
+Google Analytics e então estára sendo criado o novo projeto no Firebase. 
+
 <details><summary>Criando projeto no Firebase</summary>
 <p>
 
@@ -50,7 +60,7 @@ Acesse o [Firebase](https://firebase.google.com/) e clique em "Primeiros passos"
 ----------------
 
 #### 3. Registre seu projeto Flutter no seu projeto Firebase
-- O nome do pacote android está em `android/app/build.gradle` na propriedade `applicationId`
+- Preencha o campo "Nome do pacote do Android" com o nome do pacote android do projeto Flutter, que está em `android/app/build.gradle` na propriedade `applicationId`.  
 
 <details><summary>Registrando a applicationId</summary>
 <p>
@@ -61,7 +71,17 @@ Acesse o [Firebase](https://firebase.google.com/) e clique em "Primeiros passos"
 </p>
 </details>
 
-- [Gere a chave SHA-1](https://developers.google.com/android/guides/client-auth) pelo terminal
+- Para gerar a [chave SHA-1](https://developers.google.com/android/guides/client-auth) pelo terminal
+, utilize o terminal para executar o comando:
+```
+Mac/Linux:
+keytool -list -v \
+-alias androiddebugkey -keystore ~/.android/debug.keystore
+
+Windows:
+keytool -list -v \
+-alias androiddebugkey -keystore %USERPROFILE%\.android\debug.keystore
+```
 
 <details><summary>Gerando chave SHA-1</summary>
 <p>
@@ -77,7 +97,7 @@ Acesse o [Firebase](https://firebase.google.com/) e clique em "Primeiros passos"
 ----------------
 
 #### 4. Faça o download do arquivo de configuração
-Coloque o arquivo de configuração `google-services.json` em `android/app`
+Nesta etapa o Firebase disponibilizará o arquivo `google-services.json` para download. Coloque este arquivo de configuração na pasta `android/app`.
 
 <details><summary>Colocando o arquivo do google em `android/app`</summary>
 <p>
@@ -92,6 +112,10 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 ----------------
 
 #### 5. Adicione o SDK do Firebase
+Nesta etapa, verifique se as linhas especificadas pelo Firebase estão nos arquivos `build.gradle` dos diretórios `android` e `android/app`. 
+> NOTA: Já que voce está configurando os arquivos gradle, atualize as dependencias desatualizadas, o Android Studio realça as versões desatualizadas. 
+
+
 - Adicione as linhas especificadas pelo guia do Firebase em `<projeto>/android/build.gradle`
 
 <details><summary>Instalando o SDK em <code>android/build.grafle</code></summary>
@@ -116,6 +140,8 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 
 #### 6. Execute o app para testar a conexão com o Firebase
 
+O ultimo passo de registrar o app Flutter no Firebase é executando o Flutter run. Após a compilação, o Firebase reconhecerá a conexão e finalizará a seção de registro.
+
 <details><summary>testando a conexão com o Firebase</summary>
 <p>
 
@@ -128,6 +154,8 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 
 #### 7. Habilite a autenticação por smartphone
 
+No menu esquerdo, acesse Desenvolver->**Authentication**. Em Authentication, selecione a aba **Método de login**. Na lista de provedores de login, clique em **Smartphone** e ative-o.
+
 <details><summary>Habilitando autenticação por smartphone</summary>
 <p>
 
@@ -139,6 +167,8 @@ Coloque o arquivo de configuração `google-services.json` em `android/app`
 ----------------
 
 #### 8. Execute o app e teste a autenticação por SMS
+
+Agora só resta testar o app para receber seu SMS de autenticação
 
 <details><summary>Testando a autenticação por smartphone</summary>
 <p>
