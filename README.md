@@ -24,7 +24,7 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 
 - Adicione as dependencias no pubspec.yaml
   - []()
-<details><summary>pubspeck.yaml</summary>
+<details><summary>pubspec.yaml</summary>
 <p>
 
 ![pubspec](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/pubspec.png)
