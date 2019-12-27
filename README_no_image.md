@@ -11,6 +11,8 @@ Referencia: [Repositório de firebase_auth](https://github.com/FirebaseExtended/
 
 ## Passo-à-passo
 
+Vejá também o [passo à passo ilustrado](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/README.md)
+
 #### 1. Crie um novo projeto Flutter
 - Crie um novo projeto e use o codigo deste [main.dart](lib/main.dart).
 - Adicione as dependencias no [pubspec.yaml](pubspec.yaml):
@@ -35,7 +37,7 @@ Google Analytics e então estára sendo criado o novo projeto no Firebase.
 #### 3. Registre seu projeto Flutter no seu projeto Firebase
 - Preencha o campo "Nome do pacote do Android" com o nome do pacote android do projeto Flutter, que está em `android/app/build.gradle` na propriedade `applicationId`.  
 
-- Para gerar a[chave SHA-1](https://developers.google.com/android/guides/client-auth) pelo terminal
+- Para gerar a [chave SHA-1](https://developers.google.com/android/guides/client-auth) pelo terminal
 , utilize o terminal para executar o comando:
 ```
 Mac/Linux:
