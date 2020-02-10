@@ -15,8 +15,6 @@ Vejá também o [passo à passo simplificado](https://github.com/RicardoRaymundo
 #### 1. Crie um novo projeto Flutter
 - Crie um novo projeto e use o codigo deste [main.dart](lib/main.dart)
 
-![main.dart](https://github.com/RicardoRaymundo/firebase_sms_auth/blob/master/images%26gifs/main_dart.gif)
-
 - Adicione as dependencias no pubspec.yaml
   - google_sign_in: ^4.0.0
   - firebase_core: ^0.4.0+8
